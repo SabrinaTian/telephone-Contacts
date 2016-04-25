@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="telMes.css" type="text/css">
+</head>
+<body>
+<header>
+    <p class="head">手机通讯录</p>
+</header>
+
+<div class="a">
+    <ul id="AllLetter">
+        <li class="letter">A</li>
+        <li class="letter">B</li>
+        <li class="letter">C</li>
+        <li class="letter">D</li>
+        <li class="letter">E</li>
+        <li class="letter">F</li>
+        <li class="letter">G</li>
+        <li class="letter">H</li>
+        <li class="letter">I</li>
+        <li class="letter">J</li>
+        <li class="letter">K</li>
+        <li class="letter">L</li>
+        <li class="letter">M</li>
+        <li class="letter">N</li>
+        <li class="letter">O</li>
+        <li class="letter">P</li>
+        <li class="letter">Q</li>
+        <li class="letter">R</li>
+        <li class="letter">S</li>
+        <li class="letter">T</li>
+        <li class="letter">U</li>
+        <li class="letter">V</li>
+        <li class="letter">W</li>
+        <li class="letter">X</li>
+        <li class="letter">Y</li>
+        <li class="letter">Z</li>
+        <li class="letter">#</li>
+    </ul><!--右边的索引字母-->
+<ul id="name">
+    <li id="A" class="first"><p class="mar-left">A</p></li>
+    <li class="nameLetter">apple</li>
+    <li class="nameLetter">apple</li>
+    <li class="nameLetter">apple</li>
+
+    <li id="B" class="first"><p class="mar-left">B</p></li>
+    <li class="nameLetter">bee</li>
+
+    <li id="C" class="first"><p class="mar-left">C</p></li>
+    <li class="nameLetter">cat</li>
+
+    <li id="D" class="first"><p class="mar-left">D</p></li>
+    <li class="nameLetter">dog</li>
+
+    <li id="E" class="first"><p class="mar-left">E</p></li>
+    <li class="nameLetter">egg</li>
+
+    <li id="F" class="first"><p class="mar-left">F</p></li>
+    <li class="nameLetter">fox</li>
+
+    <li id="G" class="first"><p class="mar-left">G</p></li>
+    <li class="nameLetter">girl</li>
+
+    <li id="H" class="first"><p class="mar-left">H</p></li>
+    <li class="nameLetter">hi</li>
+
+    <li id="I" class="first"><p class="mar-left">I</p></li>
+    <li class="nameLetter">int</li>
+
+    <li id="J" class="first"><p class="mar-left">J</p></li>
+    <li class="nameLetter">json</li>
+
+    <li id="K" class="first"><p class="mar-left">K</p></li>
+    <li class="nameLetter">know</li>
+
+    <li id="L" class="first"><p class="mar-left">L</p></li>
+    <li class="nameLetter">lion</li>
+
+    <li id="M" class="first"><p class="mar-left">M</p></li>
+    <li class="nameLetter">milk</li>
+
+    <li id="N" class="first"><p class="mar-left">N</p></li>
+    <li class="nameLetter">nor</li>
+
+    <li id="O" class="first"><p class="mar-left">O</p></li>
+    <li class="nameLetter">option</li>
+
+    <li id="P" class="first"><p class="mar-left">P</p></li>
+    <li class="nameLetter">people</li>
+
+    <li id="Q" class="first"><p class="mar-left">Q</p></li>
+    <li class="nameLetter">quick</li>
+
+    <li id="R" class="first"><p class="mar-left">R</p></li>
+    <li class="nameLetter">risk</li>
+
+    <li id="S" class="first"><p class="mar-left">S</p></li>
+    <li class="nameLetter">small</li>
+
+    <li id="T" class="first"><p class="mar-left">T</p></li>
+    <li class="nameLetter">take</li>
+
+    <li id="U" class="first"><p class="mar-left">U</p></li>
+    <li class="nameLetter">user</li>
+
+    <li id="V" class="first"><p class="mar-left">V</p></li>
+    <li class="nameLetter">voice</li>
+
+    <li id="W" class="first"><p class="mar-left">W</p></li>
+    <li class="nameLetter">woman</li>
+
+    <li id="X" class="first"><p class="mar-left">X</p></li>
+    <li class="nameLetter">xml</li>
+
+    <li id="Y" class="first"><p class="mar-left">Y</p></li>
+    <li class="nameLetter">yeah</li>
+
+    <li id="Z" class="first"><p class="mar-left">Z</p></li>
+    <li class="nameLetter">zoo</li>
+
+    <li id="fuhao" class="first"><p class="mar-left">#</p></li>
+
+</ul><!--名字-->
+
+</div>
+<!--show点击右边竖行字母时，对应出现小框和字母-->
+<div id="aBlock" class="blockShow">A</div>
+<div id="bBlock" class="blockShow">B</div>
+<div id="cBlock" class="blockShow">C</div>
+<div id="dBlock" class="blockShow">D</div>
+<div id="eBlock" class="blockShow">E</div>
+<div id="fBlock" class="blockShow">F</div>
+<div id="gBlock" class="blockShow">G</div>
+<div id="hBlock" class="blockShow">H</div>
+<div id="iBlock" class="blockShow">I</div>
+<div id="jBlock" class="blockShow">J</div>
+<div id="kBlock" class="blockShow">K</div>
+<div id="lBlock" class="blockShow">L</div>
+<div id="mBlock" class="blockShow">M</div>
+<div id="nBlock" class="blockShow">N</div>
+<div id="oBlock" class="blockShow">O</div>
+<div id="pBlock" class="blockShow">P</div>
+<div id="qBlock" class="blockShow">Q</div>
+<div id="rBlock" class="blockShow">R</div>
+<div id="sBlock" class="blockShow">S</div>
+<div id="tBlock" class="blockShow">T</div>
+<div id="uBlock" class="blockShow">U</div>
+<div id="vBlock" class="blockShow">V</div>
+<div id="wBlock" class="blockShow">W</div>
+<div id="xBlock" class="blockShow">X</div>
+<div id="yBlock" class="blockShow">Y</div>
+<div id="zBlock" class="blockShow">Z</div>
+<div id="fuhaoBlock" class="blockShow">#</div>
+
+
+
+
+
+
+<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+<script>
+/*电脑端可用，手机端不可用
+    $("#name").find(".first");
+    $(function(){
+        $("#AllLetter li").mousemove(function(){
+            var num = $("#AllLetter li").index(this);
+            $(".blockShow").eq(num).show(); //当鼠标放在某个字母上，屏幕中间显示字母框
+        });
+
+        $("#AllLetter li").mouseout(function(){
+            var num = $("#AllLetter li").index(this);
+            $(".blockShow").eq(num).hide();//当鼠标移开，屏幕中间的字母框消失
+        });
+    })
+*/
+    $(function(){
+//计算右边字母的位置
+        var Initials = $(".letter");
+        var windowHeight=$(window).height();
+        var InitHeight=windowHeight-72;
+        var LiHeight=InitHeight/27;
+        Initials.height(LiHeight);
+        //触摸事件
+       $("#AllLetter li").on("touchstart",function() {
+           var num = $("#AllLetter li").index(this);//获取该序列号
+           var word = $(this).text(); //获取该序列号对应的字母
+           $(".blockShow").eq(num).show();
+           //点击右边索引字母，姓名大写字母向上滚动。
+           if (num == 0) {
+               $('html,body').animate({scrollTop: '0px'}, 300);//点击第一个滚到顶部
+           } else if (num == 26) {
+               var fuhaoTop = $('#fuhao').position().top;
+               $('html,body').animate({scrollTop: fuhaoTop + 'px'}, 300);//点击最后一个滚到#号
+          }else{
+                     $("#name .first").each(function(){       //进行遍历
+                      var v = $(this).text();                 //挨个获取"#name .first"中的文本
+                      if(word == v){
+                        $(this).attr("id", v);                //将V赋给id
+                        var LetterTop = $("#"+v).position().top-50;          //点击对应字母，滚到顶部
+                         $('html,body').animate({scrollTop: LetterTop+'px'}, 300);
+                      }
+                   });
+           }
+       });
+
+       $("#AllLetter li").on("touchend",function(){
+           var num = $("#AllLetter li").index(this);
+           $(".blockShow").eq(num).hide();
+       });
+
+    });
+</script>
+</body>
+</html>
